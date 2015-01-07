@@ -1,0 +1,84 @@
+textarea{
+	height:250px;
+	width: 250px;
+	resize:none;
+	font-size: 220px;
+	text-align: center;
+	word-wrap : break-word; 
+	border-color: black;
+	border-radius: 50px;
+	border: solid 5px;
+	font-family: Berlin sans fb;
+	background-color: #0000BA;
+}
+table{
+	margin-left: 50px;
+	margin-top: 50px;
+}
+body{
+	font-size: 22px;
+	text-align: center;
+	background-color: #000000
+}
+.text{
+	text-align: center;
+	margin-left: 500px;
+	height:920px;
+	width:900px;
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-color: #000;
+	border-width: 5px;
+	border-radius: 30px;
+	font-family: Berlin sans fb;
+	box-shadow:0px 0px 0 rgb(255,50,0),
+	1px 1px 0 rgb(247,228,228),
+	2px 2px 0 rgb(238,219,219),
+	3px 3px 0 rgb(229,210,210),
+	4px 4px 0 rgb(221,202,202),
+	5px 5px 0 rgb(212,193,193),
+	6px 6px 0 rgb(203,184,184),
+	7px 7px 0 rgb(195,175,175),
+	8px 8px 0 rgb(167,167,167),
+	9px 9px 0 rgb(158,158,158), 
+	10px 10px 0 rgb(149,149,149),
+	11px 11px 10px rgba(0,0,0,0.6),
+	11px 11px 1px rgba(0,0,0,0.5),
+	0px 0px 10px rgba(0,0,0,.2);
+}
+.banniere{
+	height: 200px;
+	width: 900px;
+	margin-left: 500px;
+	background-color:  #FFFFFF;
+	color:#00FF00;
+	font-size: 30px;
+	border-style: dashed;
+	border-color: #000;
+	border-width: 5px;
+	border-radius: 50px;
+	font-family: Berlin sans fb;
+	box-shadow:0px 0px 0 rgb(255,50,0),
+	1px 1px 0 rgb(247,228,228),
+	2px 2px 0 rgb(238,219,219),
+	3px 3px 0 rgb(229,210,210),
+	4px 4px 0 rgb(221,202,202),
+	5px 5px 0 rgb(212,193,193),
+	6px 6px 0 rgb(203,184,184),
+	7px 7px 0 rgb(195,175,175),
+	8px 8px 0 rgb(167,167,167),
+	9px 9px 0 rgb(158,158,158), 
+	10px 10px 0 rgb(149,149,149),
+	11px 11px 10px rgba(0,0,0,0.6),
+	11px 11px 1px rgba(0,0,0,0.5),
+	0px 0px 10px rgba(0,0,0,.2);
+}
+.etoile{
+	font-size: 25px;
+}
+.copyright{
+font-family:  Berlin sans fb;
+color: #000000;
+font-size: 15px;
+text-align: center;
+}
