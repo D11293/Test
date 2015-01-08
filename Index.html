@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<div class="banniere"><h1><div class="etoile">************************************************************</br></div>
+LA BONNE COMBINAISON
+<div class="etoile">************************************************************</br></div></h1></div>
+<body onKeyPress="if (event.keyCode == 13) test()" >
+<link rel="stylesheet" type="text/css" href="style.css">
+</br>
+<div class="text">
+
+<table>
+	<form>
+	<tr>
+	<td><textarea id="Case1" maxlength="1"></textarea></td>
+	<td><textarea id="Case2" maxlength="1"></textarea></td>
+	<td><textarea id="Case3" maxlength="1"></textarea></td>
+	</tr>
+	<tr>
+	<td><textarea id="Case4" maxlength="1"></textarea></td>
+	<td><textarea id="Case5" maxlength="1"></textarea></td>
+	<td><textarea id="Case6" maxlength="1"></textarea></td>
+	</tr>
+	<tr>
+	<td><textarea id="Case7" maxlength="1"></textarea></td>
+	<td><textarea id="Case8" maxlength="1"></textarea></td>
+	<td><textarea id="Case9" maxlength="1"></textarea></td>
+	</tr>
+	</form>
+</table>
+</br>
+<script>
+var C1=Math.floor((9)*Math.random()+1);
+var C2=Math.floor((9)*Math.random()+1);
+var C3=Math.floor((9)*Math.random()+1);
+var C4=Math.floor((9)*Math.random()+1);
+var C5=Math.floor((9)*Math.random()+1);
+var C6=Math.floor((9)*Math.random()+1);
+var C7=Math.floor((9)*Math.random()+1);
+var C8=Math.floor((9)*Math.random()+1);
+var C9=Math.floor((9)*Math.random()+1);
+
+var test = function(){
+
+var Cas1=document.getElementById("Case1").value;
+var Cas2=document.getElementById("Case2").value;
+var Cas3=document.getElementById("Case3").value;
+var Cas4=document.getElementById("Case4").value;
+var Cas5=document.getElementById("Case5").value;
+var Cas6=document.getElementById("Case6").value;
+var Cas7=document.getElementById("Case7").value;
+var Cas8=document.getElementById("Case8").value;
+var Cas9=document.getElementById("Case9").value;
+if(Cas1==C1){
+	document.getElementById("Case1").style.backgroundColor = "green";
+
+}
+else if(Cas1==""){
+ document.getElementById("Case1").style.backgroundColor = "#0000BA";
+}
+
+else{
+	document.getElementById("Case1").style.backgroundColor = "red";
+}
+if(Cas2==C2){
+	document.getElementById("Case2").style.backgroundColor = "green";
+}
+else if(Cas2==""){
+ document.getElementById("Case2").style.backgroundColor = "#0000BA";
+}
+else{
+	document.getElementById("Case2").style.backgroundColor = "red";
+}
+if(Cas3==C3){
+	document.getElementById("Case3").style.backgroundColor = "green";
+}
+else if(Cas3==""){
+ document.getElementById("Case3").style.backgroundColor = "#0000BA";
+}
+else{
+	document.getElementById("Case3").style.backgroundColor = "red";
+}
+if(Cas4==C4){
+	document.getElementById("Case4").style.backgroundColor = "green";
+}
+else if(Cas4==""){
+ document.getElementById("Case4").style.backgroundColor = "#0000BA";
+}
+else{
+	document.getElementById("Case4").style.backgroundColor = "red";
+}
+if(Cas5==C5){
+	document.getElementById("Case5").style.backgroundColor = "green";
+}
+else if(Cas5==""){
+ document.getElementById("Case5").style.backgroundColor = "#0000BA";
+}
+else{
+	document.getElementById("Case5").style.backgroundColor = "red";
+}
+if(Cas6==C6){
+	document.getElementById("Case6").style.backgroundColor = "green";
+}
+else if(Cas6==""){
+ document.getElementById("Case6").style.backgroundColor = "#0000BA";
+}
+else{
+	document.getElementById("Case6").style.backgroundColor = "red";
+}
+if(Cas7==C7){
+	document.getElementById("Case7").style.backgroundColor = "green";
+}
+else if(Cas7==""){
+ document.getElementById("Case7").style.backgroundColor = "#0000BA";
+}
+else{
+	document.getElementById("Case7").style.backgroundColor = "red";
+}
+if(Cas8==C8){ 
+	document.getElementById("Case8").style.backgroundColor = "green";
+}
+else if(Cas8==""){
+ document.getElementById("Case8").style.backgroundColor = "#0000BA";
+}
+else{
+	document.getElementById("Case8").style.backgroundColor = "red";
+}
+if(Cas9==C9){
+	document.getElementById("Case9").style.backgroundColor = "green";
+}
+else if(Cas9==""){
+ document.getElementById("Case9").style.backgroundColor = "#0000BA";
+}
+else{
+	document.getElementById("Case9").style.backgroundColor = "red";
+}
+ };
+</script>
+<div class="copyright">
+© copyright Denis Gerber
+</div>
+</div>
+</body>
+</html>
